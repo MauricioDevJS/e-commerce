@@ -1,19 +1,43 @@
+* {
+
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
 
 body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: lightgrey;
+    background-color: #8c8c8c;
     color: #333;
 }
 
 
 header {
-    background-color: #ff6f61;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    background-color: #3e4144;
     color: #fff;
     padding: 20px;
 }
 
+.menus{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+}
+
+.logo>img{
+    width: 42%;
+    border-radius: 50% 0 50% 0;
+    
+}
 header h1 {
     margin: 0;
     font-size: 40px;
@@ -34,6 +58,7 @@ header ul {
 header li {
     display: inline-block;
     margin-left: 20px;
+    text-align: center;
 }
 
 header a {
@@ -45,10 +70,21 @@ header a {
 }
 
 header a:hover {
-    color: #333;
+    color: #ff6f61;
+    background-color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
 }
 
-/* Estilos para a seção de destaques */
+.header{  
+    width: 100%;
+    margin-top: ;
+}
+
+.busca{
+    
+}
 .destaque {
     padding: 40px;
     text-align: center;
@@ -63,7 +99,7 @@ header a:hover {
 .produto {
     display: inline-block;
     width: 300px;
-    background-color: #fff;
+    background-color: #b5b5b5;
     margin: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease-in-out;
@@ -106,7 +142,6 @@ header a:hover {
     color: #ff6f61;
 }
 
-/* Estilos para a seção de categorias */
 .categorias {
     background-color: #333;
     color: #fff;
@@ -143,9 +178,10 @@ header a:hover {
     color: #ff6f61;
 }
 
-/* Estilos para o rodapé */
+
 footer {
+    text-align: center;
     background-color: #333;
-    color: #fff;
-    padding: 20px;
+    color: #8c8c8c;
+    padding: 25px;
 }

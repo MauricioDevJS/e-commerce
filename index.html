@@ -1,26 +1,34 @@
 <!DOCTYPE html>
 <html>
+
 <head>
 	<title>ShirtShop</title>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-	<header>
-		<i href="imagens/logo.png"></i>
-		<h1>ShirtShop</h1>
-		<nav>
-			<ul>
-				<li><a href="#">Início</a></li>
-				<li><a href="#">Camisetas Masculinas</a></li>
-				<li><a href="#">Camisetas Femininas</a></li>
-				<li><a href="#">Camisetas Intantis</a></li>
-				<li><a href="#">Contato</a></li>
-			</ul>
-		</nav>
+	<header class="header">
+		<div class="logo">
+			<img src="imagens/logo.png" alt="">
+		</div>
+		<div class="busca">
+			<input type="text" name="busca" id="" placeholder="Qual camiseta está procurando?">
+		</div>
+		<div>
+			<nav>
+				<ul class="menus">
+					<li><a href="#">Início</a></li>
+					<li><a href="#">Categorias</a></li>
+					<li><a href="#">Contato</a></li>
+					<li><a href="#">Login</a></li>
+				</ul>
+			</nav>
+		</div>
+
 	</header>
-	
+
 	<main>
 		<section class="destaque">
 			<h2>Camisetas em destaque</h2>
@@ -45,7 +53,7 @@
 				</div>
 			</div>
 		</section>
-		
+
 		<section class="categorias">
 			<h2>Categorias</h2>
 			<ul>
@@ -56,9 +64,10 @@
 			</ul>
 		</section>
 	</main>
-	
+
 	<footer>
 		<p><span>&#174;</span>ShirtShop | Todos os direitos reservados - 2023</p>
 	</footer>
 </body>
+
 </html>
