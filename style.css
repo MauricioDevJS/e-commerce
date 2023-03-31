@@ -1,0 +1,151 @@
+/* Estilos para o corpo da página */
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+/* Estilos para o cabeçalho */
+header {
+    background-color: #ff6f61;
+    color: #fff;
+    padding: 20px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+header nav {
+    display: flex;
+    justify-content: flex-end;
+}
+
+header ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 20px;
+}
+
+header a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+header a:hover {
+    color: #333;
+}
+
+/* Estilos para a seção de destaques */
+.destaque {
+    padding: 40px;
+    text-align: center;
+}
+
+.destaque h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.produto {
+    display: inline-block;
+    width: 300px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease-in-out;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+}
+
+.produto img {
+    width: 100%;
+    height: auto;
+}
+
+.produto h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+.produto p {
+    font-size: 20px;
+    margin: 10px;
+}
+
+.produto button {
+    background-color: #ff6f61;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.produto button:hover {
+    background-color: #fff;
+    color: #ff6f61;
+}
+
+/* Estilos para a seção de categorias */
+.categorias {
+    background-color: #333;
+    color: #fff;
+    padding: 40px;
+    text-align: center;
+}
+
+.categorias h2 {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.categorias ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.categorias li {
+    display: inline-block;
+    margin: 10px;
+}
+
+.categorias a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.categorias a:hover {
+    color: #ff6f61;
+}
+
+/* Estilos para o rodapé */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
